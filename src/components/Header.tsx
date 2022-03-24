@@ -49,11 +49,6 @@ export default function Header() {
                     </div>
                 </div>
             </div>
-            {/* <MouseParallaxContainer className="main-parra" >
-                <MouseParallaxChild className="main-parra" factorX={0.0075} factorY={0.0125} >
-                    <img src={BigImg} alt="" className="main-img"/>
-                </MouseParallaxChild>
-            </MouseParallaxContainer> */}
         </div>
     );
 }

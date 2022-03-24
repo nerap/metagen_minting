@@ -1,0 +1,58 @@
+.footer-main {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.brand-img {
+    position: relative;
+    margin-left: 3%;
+    width: 20%;
+    opacity: 0.35;
+}
+
+@media only screen and (max-width: 810px)
+{
+  .footer-main {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .brand-img {
+    position: relative;
+
+    margin-left: 3%;
+    opacity: 0.35;
+    height: 40%;
+    max-width: 80%;
+    width: 100%;
+    left: 8%;
+    bottom: 0;
+  }
+
+}
+
+@media only screen and (max-width: 600px)
+{
+  .brand-img {
+    position: relative;
+
+    margin-left: 3%;
+    opacity: 0.35;
+    height: 40%;
+    max-width: 80%;
+    width: 100%;
+    left: 10%;
+    bottom: 0;
+  }
+
+    .footer-main {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+}
