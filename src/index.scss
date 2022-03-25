@@ -33,6 +33,10 @@ body > #root > div {
   width: 100%;
 }
 
+* {
+  cursor: url(cursor.png), auto;
+}
+
 p {
   font-size: 16px !important;
   line-height: 2 !important;

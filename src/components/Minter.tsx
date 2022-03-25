@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Minter.scss";
 
-export default function Minter() {
+export default function Minter( props : any ) {
 
     
     // const [time, setTime] = useState("");

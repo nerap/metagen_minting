@@ -7,7 +7,7 @@ import BigImg from "../assets/metagen_asset/metagens_04.png";
 // import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import "./Header.scss";
 
-export default function Header() {
+export default function Header(props: any) {
 
     return (
         <div className="header-area">
