@@ -35,11 +35,8 @@ body > #root > div {
 
 * {
   cursor: url(cursor.png), auto;
-}
-
-p {
-  font-size: 16px !important;
-  line-height: 2 !important;
+  padding: 0;
+  margin: 0;
 }
 
 .centeredTitle h4 {

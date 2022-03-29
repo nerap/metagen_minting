@@ -94,10 +94,10 @@
     width: 450px;
     height: 100px;
     margin: auto;
-    margin-top: 24%;
+    margin-top: 26%;
     margin-bottom: 84%;
     z-index: 2;
-    animation: fadeIn 0.75s;
+    animation: fadeButton 2.5s;
 }
 
 .button-main {
@@ -228,7 +228,7 @@
     margin: auto;
     background-color: #1d1e22;
     opacity: 0.8;
-    margin-top: 20%;
+    margin-top: 22.5%;
     text-align: center;
     color: white;
     border-radius: 25px;
@@ -247,7 +247,7 @@
   }
 
 
-@keyframes fadeTest {
+@keyframes fadeButton {
   0% {opacity:0;}
   50% {opacity: 0;}
   100% {opacity:1;}
@@ -324,7 +324,6 @@
     margin: auto;
     margin-top: 70%;
     z-index: 2;
-    animation: fadeIn 0.75s;
   }
   
   .button-main {
@@ -379,7 +378,6 @@
   margin: auto;
   margin-top: 100%;
   z-index: 2;
-  animation: fadeIn 0.75s;
 }
 
 .button-main {

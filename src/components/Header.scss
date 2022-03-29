@@ -2,7 +2,36 @@
     position: absolute;
     width: 100%;
     z-index: 2;
+
   }
+
+  @keyframes fadeMeta {
+    0% {opacity:0;}
+    50% {opacity: 0;}
+    100% {opacity:1;}
+  }
+
+@keyframes fadeTest {
+  0% {opacity:0;}
+  48% {opacity: 0;}
+  50% {opacity:1;}
+  51% {opacity:0.6;}
+  53% {opacity:0.6}
+  54% {opacity:1;}
+  56% {opacity:0.4;}
+  58% {opacity:0.4;}
+  59% {opacity:1;}
+  60% {opacity:0.7;}
+  61% {opacity:1;}
+  62% {opacity:1;}
+  63% {opacity:0.5;}
+  64% {opacity:1;}
+  80% {opacity:1;}
+  // 81% {opacity:0.8;}
+  // 95% {opacity: 0.8;}
+  100% {opacity:1;}
+}
+
   
   .header {
     position: absolute;
@@ -14,6 +43,7 @@
   }
   .header-logo {
     max-width: 200px;
+    animation: fadeMeta 2.5s;
   }
   .header-wrp {
     display: flex;
@@ -25,11 +55,21 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    animation: fadeTest 3.5s;
   }
   
   .header-social a {
     max-width: 70px;
     display: block;
+  }
+
+  .header-social a img {
+    padding-top: 6px;
+    &:hover {
+      border-radius: 8px;
+      border: -3px;
+      box-shadow: inset 0px 0px 10px 5px rgb(209, 192, 57);
+    }
   }
   
   @media only screen and (max-width: 810px)
@@ -43,6 +83,7 @@
   .header-social a {
     max-width: 50px;
     display: block;
+
   }
 
   .main-img {
