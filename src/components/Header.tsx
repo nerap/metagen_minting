@@ -1,10 +1,7 @@
-import React from "react";
 import Discord from "../assets/social_media/ic1.png";
 import Instagram from "../assets/social_media/ic2.png";
 import Twitter from "../assets/social_media/ic3.png";
 import Logo from "../assets/metagen_asset/logo.png";
-import BigImg from "../assets/metagen_asset/metagens_04.png";
-// import { MouseParallaxContainer, MouseParallaxChild } from "react-parallax-mouse";
 import "./Header.scss";
 
 export default function Header(props: any) {
